@@ -1,0 +1,78 @@
+.topnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.topnavleft{
+  display: flex;
+  align-items: center;
+}
+.navitemleft{
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.navitemleft:hover{
+  background-color: #04AA6D;
+  color: white;
+}
+.navarrow{
+  margin-left: 2px;
+}
+.search{
+  border: 1px solid #000000;
+  width: 175px;
+  height: 36px;
+  border-radius: 25px;
+  align-items: center;
+}
+.searchinput{
+  width: 75%;
+  height: 80%;
+  border: none;
+  /* margin-left: 10px; */
+  margin-top: 2px;
+  border-radius: 25px;
+  padding-left: 10px;
+}
+.darkswitchleft{
+  margin-left: 10px;
+}
+.rightnav{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.rightnavitems{
+  text-decoration: none;
+  padding: 15px 10px;
+  margin-left: 10px;
+  color: black;
+}
+.rightnavtopsymbol{
+  margin-right: 10px;
+  color: #9763f6;
+}
+.righttopnavsignup{
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  border-radius: 25px;
+  background-color: #04AA6D;
+  color: white;
+}
+/* .righttopnavlogin{
+  text-decoration: none;
+  padding: 8px 16px 8px 48px;
+  color: black;
+  background-color: #96d4d4;
+  border-radius: 0px 25px 25px 0px;
+  position: absolute;
+  top: 5px;
+} */
+.leftnavmaggdark{
+  color: #000000;
+}
+.leftnavmaggdark:hover{
+  /* background-color: #F1F1F1; */
+}
