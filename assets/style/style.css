@@ -77,3 +77,9 @@
 .leftnavmaggdark:hover{
   /* background-color: #F1F1F1; */
 }
+.secondnav{
+  align-items: center;
+}
+.secondnavitems{
+  text-decoration: none;
+}
