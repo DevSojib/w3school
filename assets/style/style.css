@@ -47,9 +47,13 @@
 }
 .rightnavitems{
   text-decoration: none;
-  padding: 15px 10px;
+  padding: 10px 16px;
   margin-left: 10px;
   color: black;
+}
+.rightnavitems:hover{
+  border-radius: 25px;
+  background-color: rgb(204, 204, 204);
 }
 .rightnavtopsymbol{
   margin-right: 10px;
@@ -79,7 +83,19 @@
 }
 .secondnav{
   align-items: center;
+  padding: 5px 15px;
+  background-color: #282A35;
+  margin-top: 4px;
 }
-.secondnavitems{
+.secondnavitem{
   text-decoration: none;
+  padding: 5px 22px;
+  font-size: 18px;
+  color: #f1f1f1;
+  text-transform: capitalize;
+
+}
+.secondnavitem:hover{
+  background-color: black;
+
 }
