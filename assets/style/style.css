@@ -26,6 +26,7 @@
   height: 36px;
   border-radius: 25px;
   align-items: center;
+  display: flex;
 }
 .searchinput{
   width: 75%;
@@ -37,8 +38,21 @@
   padding-left: 10px;
   outline: none;
 }
+.searmagleft{
+  border-radius: 25px;
+  padding: 9px;
+}
+.searmagleft:hover{
+  background-color: #F1F1F1;
+}
 .darkswitchleft{
   margin-left: 10px;
+  border-radius: 50px;
+  padding: 10px;
+}
+.darkswitchleft:hover{
+  /* margin-left: 10px; */
+  background-color: #F1F1F1;
 }
 .rightnav{
   position: relative;
@@ -98,4 +112,33 @@
 .secondnavitem:hover{
   background-color: black;
 
+}
+.signup{
+  padding: 0px 25px;
+  background-color: #04AA6D;
+  border-radius: 40px;
+  margin-right: -55px !important;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+.signup:hover{
+  background-color: #059862;
+  z-index: 2;
+  color: white;
+}
+.login{
+  padding: 0px 20px;
+  padding-left: 65px;
+  margin-right: 10px !important;
+  background-color: #D9EEE1;
+  border-radius: 40px;
+  color: #000;
+  text-align: center;
+  margin: 0px;
+}
+.login:hover{
+  background-color: #059862;
+  color: white;
 }
